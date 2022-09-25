@@ -1,0 +1,26 @@
+Num threads in ab cycle: 3
+   Index: 6, thread: 2, num threads: 3
+   Index: 7, thread: 2, num threads: 3
+   Index: 8, thread: 2, num threads: 3
+   Index: 0, thread: 0, num threads: 3
+   Index: 1, thread: 0, num threads: 3
+   Index: 3, thread: 1, num threads: 3
+   Index: 4, thread: 1, num threads: 3
+   Index: 5, thread: 1, num threads: 3
+   Index: 2, thread: 0, num threads: 3
+   Index: 9, thread: 0, num threads: 3
+   Index: 10, thread: 0, num threads: 3
+   Index: 11, thread: 0, num threads: 3
+Num threads in c cycle: 4
+   Index: 2, thread: 1, num threads: 4
+   Index: 3, thread: 1, num threads: 4
+   Index: 8, thread: 1, num threads: 4
+   Index: 9, thread: 1, num threads: 4
+   Index: 10, thread: 1, num threads: 4
+   Index: 11, thread: 1, num threads: 4
+   Index: 4, thread: 2, num threads: 4
+   Index: 5, thread: 2, num threads: 4
+   Index: 0, thread: 3, num threads: 4
+   Index: 1, thread: 3, num threads: 4
+   Index: 6, thread: 0, num threads: 4
+   Index: 7, thread: 0, num threads: 4
