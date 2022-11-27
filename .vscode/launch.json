@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Mpi - Build and run active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/usr/bin/mpirun",
+            "args": [
+                "-np",
+                "4",
+                "${workspaceFolder}/output/${relativeFileDirname}/${fileBasenameNoExtension}",
+            ],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Mpicc build active file",
+        }
+    ]
+}
