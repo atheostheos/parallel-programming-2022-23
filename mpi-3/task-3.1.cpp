@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
 
     if (rank == ROOT) {
         for (int i = 0; i < n; i++) {
-            x[i] = 1;
+            x[i] = rand() % 100;
             printf("%d ", x[i]);
         }
         printf("\n");
@@ -32,9 +32,10 @@ int main(int argc, char** argv) {
     for (int i = 0; i < part && rank * part + i < n; ++i) {
         sum_part += abs(y[i]);
     }
+    printf("%d\n", sum_part);
 
     int sum;
-    MPI_Reduce(&sum, &sum_part, 1, MPI_INT, MPI_SUM, ROOT, MPI_COMM_WORLD);
+    MPI_Reduce(&sum_part, &sum, 1, MPI_INT, MPI_SUM, ROOT, MPI_COMM_WORLD);
 
     if (rank == ROOT) {
         printf("||x||=%d\n", sum);
